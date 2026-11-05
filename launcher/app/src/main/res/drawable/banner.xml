@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320x180 TV banner: black field, outlined diamond, hairline. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp" android:height="180dp"
+    android:viewportWidth="320" android:viewportHeight="180">
+    <path android:fillColor="#070707" android:pathData="M0,0h320v180h-320z" />
+    <path android:strokeColor="#F2F2F0" android:strokeWidth="3"
+        android:pathData="M120,90 L140,70 L160,90 L140,110 Z" />
+    <path android:fillColor="#F2F2F0" android:pathData="M176,88h60v4h-60z" />
+    <path android:fillColor="#55F2F2F0" android:pathData="M176,100h36v2h-36z" />
+</vector>

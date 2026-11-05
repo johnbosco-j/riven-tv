@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keys_description">Makes the remote\'s Home button open Riven, and the Settings button open TV settings. Riven reads only those two buttons; it does not see what is on screen.</string>
+</resources>

@@ -1,0 +1,17 @@
+# Bundled streaming apps you didn't ask for. Remove a line to keep that app.
+com.netflix.ninja                           # Netflix
+com.amazon.amazonvideo.livingroom           # Prime Video
+com.graymatrix.did                          # ZEE5
+com.sonyliv                                 # Sony LIV
+com.erosnow                                 # Eros Now
+com.hungama.movies.tv                       # Hungama
+com.hungama.myplay.activity
+com.spotify.tv.android                      # Spotify
+com.apple.atve.androidtv.appletv            # Apple TV
+com.disney.disneyplus                       # Disney+ (global; JioHotstar is separate)
+in.amazon.mShop.android.shopping            # Amazon shopping
+com.mxtech.videoplayer.television           # MX Player
+com.zeemusic.tv
+com.eros.now
+com.alphonso.pulse                          # ad / content tracking SDK seen on Indian TVs
+tv.accedo.airtel.wynk                       # Airtel Xstream

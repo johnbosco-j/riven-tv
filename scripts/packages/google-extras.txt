@@ -1,0 +1,17 @@
+# Google extras that are safe to disable on Google TV. Kept on purpose (do NOT add):
+#   com.google.android.gms / gsf / vending   (Play services + Play Store — apps break without them)
+#   com.google.android.katniss               (Assistant / voice search on the remote mic)
+#   com.google.android.tv.remote.service     (remote pairing)
+#   com.android.tv.settings                  (Settings)
+#   com.google.android.youtube.tv            (YouTube — you want it)
+com.google.android.apps.tv.dreamx           # ambient mode screensaver with promoted content
+com.google.android.tvrecommendations        # recommendation rows feeding ads/"For you"
+com.google.android.leanbacklauncher.recommendations
+com.google.android.videos                   # Google TV / Play Movies storefront
+com.google.android.youtube.tvmusic          # YouTube Music
+com.google.android.youtube.tvkids           # YouTube Kids
+com.google.android.play.games               # Play Games
+com.google.android.feedback                 # feedback uploader
+com.google.android.tv.bugreportsender       # bug report uploader
+com.google.android.apps.tv.launcherx.ambient
+com.google.android.marvin.talkback          # screen reader — keep if anyone in the house uses it

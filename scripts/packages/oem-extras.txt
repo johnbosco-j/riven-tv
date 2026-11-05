@@ -1,0 +1,34 @@
+# Thomson (SPPL / Skyworth-built, MediaTek) Google TV extras.
+# Adapted from CleanYourTV's tested list for a Thomson SPPL 4K Google TV (SW6H), MIT licence,
+# https://github.com/Gathin23/cleanyourtv/tree/main/examples/thomson-sppl-4k-sw6h
+# Only packages actually present and enabled on your TV are touched. Run `./riven.sh scan` first.
+#
+# NEVER add: com.smartdevice.livetv (Live TV + HDMI), com.mediatek.tvinput, com.mediatek.tv.service,
+# com.mediatek.android.tv.globalkeyoverlay (hot keys), com.smartdevice.duplebluetooth /
+# bleconnectservice (remote pairing), anything with settings, keyboard, factory, ota or update.
+
+# Telemetry and after-sale push
+com.android.tv.feedbackconsent
+com.smartdevice.aftersale                    # boot + network receivers, can install APKs
+com.smartdevice.dailymanage                  # "Daily Manage" boot service
+
+# Android ad and personalisation services
+com.android.adservices.api
+com.android.ondevicepersonalization.services
+com.android.federatedcompute.services
+
+# Skyworth content, ads, demos and preloads
+com.smartdevice.recommendation               # recommendation rows + analytics
+com.smartdevice.leanbacklauncher.customizer  # injects sponsored rows into the home screen
+android.autoinstalls.config.google.gtvpai    # Play auto-installs of partner apps
+com.smartdevice.epopplayer                   # shop demo player
+fusion.android.tv.demo                       # shop demo player
+com.coocaa.demonow.lightining                # "Demo Now" retail mode
+com.Smartdevice.emanual                      # on-screen manual
+com.mstar.android.tv.disclaimercustomization # retail disclaimer pop-ups
+com.smartdevice.myapp                        # "My App" shortcut page
+
+# Not needed on a TV
+com.android.healthconnect.controller
+com.android.health.connect.backuprestore
+com.google.android.syncadapters.calendar

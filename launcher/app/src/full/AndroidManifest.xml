@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Home button takeover (Settings > Accessibility > Riven Home button). Full edition only. -->
+        <service
+            android:name=".RivenKeyService"
+            android:exported="true"
+            android:label="Riven Home button"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/riven_keys" />
+        </service>
+    </application>
+</manifest>

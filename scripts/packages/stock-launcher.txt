@@ -1,0 +1,9 @@
+# Only touched by `replace-stock --apply`. Only packages present on the TV are disabled.
+# Google TV (Android 10+)
+com.google.android.apps.tv.launcherx         # Google TV home
+com.google.android.tungsten.setupwraith      # Google's recovery screen; otherwise steals Home
+com.smartdevice.setupwraith                  # Thomson/Skyworth first-run wizard: also claims Home.
+                                             # It OWNS the saved Wi-Fi: forget + re-join Wi-Fi first!
+# Android TV 8/9 (your TV: Android TV 8.0, model "globe")
+com.google.android.tvlauncher                # Android TV Home (Oreo)
+com.google.android.leanbacklauncher          # older Android TV home
